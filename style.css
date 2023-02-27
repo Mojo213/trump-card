@@ -1,0 +1,61 @@
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: solid black 1px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url(https://w0.peakpx.com/wallpaper/117/644/HD-wallpaper-nurburgring-nordschleife-r-speedway-circuit-superspeedway-racing-race-track-nuerburgring-nordschleife.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.car{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 300px;
+height: 410px;
+margin-left: auto;
+margin-right: auto;
+border: solid black 1px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+background-image: url(https://w0.peakpx.com/wallpaper/117/644/HD-wallpaper-nurburgring-nordschleife-r-speedway-circuit-superspeedway-racing-race-track-nuerburgring-nordschleife.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+img {
+margin-top: 20px;
+border-radius: 10px;
+box-shadow: 10px 10px 15px  #b1b0b0;
+}
+
+.car > * {
+color: white;
+
+}
+
+#title-engine, #title-speed, #title-cool-factor, #title-color {
+display: flex;
+justify-content: center;
+width: 270px;
+height: 60px;
+border: 1px solid rgba(245, 245, 245, 0.353);
+border-radius: 8px;
+
+
+
+
+}
